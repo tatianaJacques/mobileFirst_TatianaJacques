@@ -6,8 +6,13 @@ $gray-light:                #bebebe;
 $gray-lighter:              #c8c8c8;
 $gray-lightest:             #f5f6f4;
 
+
 $color1:                    #3498DB;            // Red
+$color1-light:              #E4F1FE;
+$color1-lighter:            #CADFF3;
 $color1-dark:               #2574A9;
+
+$color-notif:               #E74C3C;
 
 // Transitions
 
@@ -20,14 +25,11 @@ $body-color:                #000;
 
 // Fonts
 $popin:                 'Poppins', sans-serif;
+$openSans:             'Open Sans', sans-serif;
 
 // Base
 
-$font-size-root:            16px;               // html tag
-$em-base:                   $font-size-root;    // Bourbon var for em() and rem() calculations
-$font-size-base:            rem(14);            // body tag
 $font-family-base:          $popin;
-$line-height-base:          1.6;
 $border-radius-base:        5px;
 
 

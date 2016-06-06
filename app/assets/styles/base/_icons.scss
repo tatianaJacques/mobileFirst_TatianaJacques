@@ -23,11 +23,47 @@
 @function icon-char($filename) {
   $char: "";
 
-  @if $filename == arrows {
+  @if $filename == arrow {
     $char: "\E001";
   }
-  @if $filename == tool {
+  @if $filename == calendar {
     $char: "\E002";
+  }
+  @if $filename == facebook {
+    $char: "\E003";
+  }
+  @if $filename == localisation {
+    $char: "\E004";
+  }
+  @if $filename == mail {
+    $char: "\E005";
+  }
+  @if $filename == message {
+    $char: "\E006";
+  }
+  @if $filename == notification {
+    $char: "\E007";
+  }
+  @if $filename == person {
+    $char: "\E008";
+  }
+  @if $filename == power {
+    $char: "\E009";
+  }
+  @if $filename == search {
+    $char: "\E00A";
+  }
+  @if $filename == settings {
+    $char: "\E00B";
+  }
+  @if $filename == star {
+    $char: "\E00C";
+  }
+  @if $filename == transport {
+    $char: "\E00D";
+  }
+  @if $filename == twitter {
+    $char: "\E00E";
   }
 
   @return $char;
@@ -42,20 +78,128 @@
 }
 
 
-.icon-arrows{
+.icon-arrow{
   &::before {
-    @include icon(arrows);
+    @include icon(arrow);
   }
 }
-%icon-arrows {
-  @include icon(arrows);
+%icon-arrow {
+  @include icon(arrow);
 }
 
-.icon-tool{
+.icon-calendar{
   &::before {
-    @include icon(tool);
+    @include icon(calendar);
   }
 }
-%icon-tool {
-  @include icon(tool);
+%icon-calendar {
+  @include icon(calendar);
+}
+
+.icon-facebook{
+  &::before {
+    @include icon(facebook);
+  }
+}
+%icon-facebook {
+  @include icon(facebook);
+}
+
+.icon-localisation{
+  &::before {
+    @include icon(localisation);
+  }
+}
+%icon-localisation {
+  @include icon(localisation);
+}
+
+.icon-mail{
+  &::before {
+    @include icon(mail);
+  }
+}
+%icon-mail {
+  @include icon(mail);
+}
+
+.icon-message{
+  &::before {
+    @include icon(message);
+  }
+}
+%icon-message {
+  @include icon(message);
+}
+
+.icon-notification{
+  &::before {
+    @include icon(notification);
+  }
+}
+%icon-notification {
+  @include icon(notification);
+}
+
+.icon-person{
+  &::before {
+    @include icon(person);
+  }
+}
+%icon-person {
+  @include icon(person);
+}
+
+.icon-power{
+  &::before {
+    @include icon(power);
+  }
+}
+%icon-power {
+  @include icon(power);
+}
+
+.icon-search{
+  &::before {
+    @include icon(search);
+  }
+}
+%icon-search {
+  @include icon(search);
+}
+
+.icon-settings{
+  &::before {
+    @include icon(settings);
+  }
+}
+%icon-settings {
+  @include icon(settings);
+}
+
+.icon-star{
+  &::before {
+    @include icon(star);
+  }
+}
+%icon-star {
+  @include icon(star);
+}
+
+.icon-transport{
+  &::before {
+    @include icon(transport);
+  }
+}
+%icon-transport {
+  @include icon(transport);
+}
+
+.icon-twitter{
+  &::before {
+    @include icon(twitter);
+  }
+}
+%icon-twitter {
+  @include icon(twitter);
 }
