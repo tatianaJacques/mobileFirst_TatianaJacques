@@ -1,0 +1,13 @@
+// Reset
+@import '../../../node_modules/normalize.scss/normalize';
+
+//base
+@import 'base/variables';
+@import 'base/mixins';
+@import "base/icons";
+@import 'base/layout';
+
+
+//components
+@import "components/header";
+@import "components/home";
