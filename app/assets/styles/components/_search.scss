@@ -1,0 +1,32 @@
+.c-search {
+  text-align: center;
+
+  input[type="checkbox"] {
+    visibility: hidden;
+    height:0px;
+    width:0px;
+  }
+
+  .btn-01 {
+    width: 45%;
+    height: 46px;
+    display: inline-block;
+    text-align: center;
+    line-height:46px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family:$openSans;
+    font-size: 1.3rem;
+    letter-spacing:2px;
+    font-weight: bold;
+  }
+
+  .visit {
+    background-color: $color2;
+  }
+
+  .guide {
+    background-color: $color3;
+  }
+
+}

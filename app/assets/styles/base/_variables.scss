@@ -1,16 +1,25 @@
 // Colors
 
-$gray-dark:                 #484952;
-$gray:                      #757575;
-$gray-light:                #bebebe;
-$gray-lighter:              #c8c8c8;
-$gray-lightest:             #f5f6f4;
+$gray-thunder:             #484952;
+$gray:                     #757575;
+$gray-rainy:               #bebebe;
+$gray-dusty:               #c8c8c8;
+$gray-cloud:               #f5f6f4;
 
 
-$color1:                    #3498DB;            // Red
-$color1-light:              #E4F1FE;
-$color1-lighter:            #CADFF3;
-$color1-dark:               #2574A9;
+$color1:                    #bdc3c7;            // Red
+$color1-light:              lighten( $color1, 20% );
+$color1-lighter:            lighten( $color1, 35% );
+$color1-dark:               darken( $color1, 10% );
+
+
+$color2:                    #F2784B;
+$color2-light:              lighten( $color2, 10% );
+$color2-dark:               darken( $color2, 10% );
+
+$color3:                    #81CFE0;
+$color3-light:              lighten( $color3, 10% );
+$color3-dark:               darken( $color3, 10% );
 
 $color-notif:               #E74C3C;
 
@@ -27,26 +36,8 @@ $body-color:                #000;
 $popin:                 'Poppins', sans-serif;
 $openSans:             'Open Sans', sans-serif;
 
-// Base
 
-$font-family-base:          $popin;
+// Base
 $border-radius-base:        5px;
 
 
-// Headings
-
-$font-size-h1:              rem(22);
-$font-size-h2:              rem(19);
-$font-size-h3:              rem(18);
-$font-size-h4:              rem(16);
-$font-size-h5:              rem(14);
-$font-size-h6:              rem(14);
-
-
-// Media queries
-
-$wrapper-width:             rem(960);
-
-$mq-s:                      em(768);
-$mq-m:                      em(1024);
-$mq-l:                      em(1500);
