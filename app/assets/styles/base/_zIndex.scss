@@ -1,0 +1,13 @@
+.m-push {
+
+  .c-infos-city {
+    z-index: 1;
+    position: relative;
+  }
+
+  .c-push {
+    &:before {
+      z-index: 0;
+    }
+  }
+}

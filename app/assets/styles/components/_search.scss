@@ -1,16 +1,19 @@
 .c-search {
   text-align: center;
+  display: block;
+  margin: 0 auto;
+  width:93%;
+  display: flex;
+  justify-content: space-between;
+
 
   input[type="checkbox"] {
-    visibility: hidden;
-    height:0px;
-    width:0px;
+    display: none;
   }
 
   .btn-01 {
-    width: 45%;
+    width: 48%;
     height: 46px;
-    display: inline-block;
     text-align: center;
     line-height:46px;
     text-transform: uppercase;
