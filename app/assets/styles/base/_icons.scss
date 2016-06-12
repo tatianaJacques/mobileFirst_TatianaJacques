@@ -38,32 +38,35 @@
   @if $filename == mail {
     $char: "\E005";
   }
-  @if $filename == message {
+  @if $filename == marker {
     $char: "\E006";
   }
-  @if $filename == notification {
+  @if $filename == message {
     $char: "\E007";
   }
-  @if $filename == person {
+  @if $filename == notification {
     $char: "\E008";
   }
-  @if $filename == power {
+  @if $filename == person {
     $char: "\E009";
   }
-  @if $filename == search {
+  @if $filename == power {
     $char: "\E00A";
   }
-  @if $filename == settings {
+  @if $filename == search {
     $char: "\E00B";
   }
-  @if $filename == star {
+  @if $filename == settings {
     $char: "\E00C";
   }
-  @if $filename == transport {
+  @if $filename == star {
     $char: "\E00D";
   }
-  @if $filename == twitter {
+  @if $filename == transport {
     $char: "\E00E";
+  }
+  @if $filename == twitter {
+    $char: "\E00F";
   }
 
   @return $char;
@@ -121,6 +124,15 @@
 }
 %icon-mail {
   @include icon(mail);
+}
+
+.icon-marker{
+  &::before {
+    @include icon(marker);
+  }
+}
+%icon-marker {
+  @include icon(marker);
 }
 
 .icon-message{
