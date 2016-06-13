@@ -47,26 +47,29 @@
   @if $filename == notification {
     $char: "\E008";
   }
-  @if $filename == person {
+  @if $filename == pencil {
     $char: "\E009";
   }
-  @if $filename == power {
+  @if $filename == person {
     $char: "\E00A";
   }
-  @if $filename == search {
+  @if $filename == power {
     $char: "\E00B";
   }
-  @if $filename == settings {
+  @if $filename == search {
     $char: "\E00C";
   }
-  @if $filename == star {
+  @if $filename == settings {
     $char: "\E00D";
   }
-  @if $filename == transport {
+  @if $filename == star {
     $char: "\E00E";
   }
-  @if $filename == twitter {
+  @if $filename == transport {
     $char: "\E00F";
+  }
+  @if $filename == twitter {
+    $char: "\E010";
   }
 
   @return $char;
@@ -151,6 +154,15 @@
 }
 %icon-notification {
   @include icon(notification);
+}
+
+.icon-pencil{
+  &::before {
+    @include icon(pencil);
+  }
+}
+%icon-pencil {
+  @include icon(pencil);
 }
 
 .icon-person{
