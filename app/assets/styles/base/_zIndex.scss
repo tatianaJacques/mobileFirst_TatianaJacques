@@ -10,7 +10,15 @@ header {
 
   .c-push {
     &:before {
-      z-index: 0;
+      z-index: 1;
     }
+  }
+
+  .bck-push {
+    z-index: 0;
+  }
+
+  .c-info-offers {
+    z-index:1;
   }
 }

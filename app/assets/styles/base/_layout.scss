@@ -3,7 +3,7 @@ html {
 }
 
 .container {
-  padding-top: 50px;
+  padding-top: 70px;
   margin: 25px auto;
   width: 93%;
 }
@@ -13,6 +13,24 @@ html {
 .btn-01 {
   background-color: $color1;
   box-sizing :border-box;
+}
+
+.btn-02 {
+  background-color: $color4;
+  color: $color1-light;
+  box-sizing :border-box;
+  padding:15px 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: $popin;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+
+  a {
+    color: $color1-light;
+    text-decoration: none;
+  }
 }
 
 //textes

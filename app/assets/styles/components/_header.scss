@@ -10,7 +10,7 @@ header {
   box-shadow: 0 1px 6px 0 $color1;
 
   .logo {
-    color: $color3-dark;
+    color: $color4;
     text-transform: uppercase;
     font-family: $popin;
     font-weight: bold;
@@ -20,8 +20,8 @@ header {
 
     .icon {
       background-color: $color1-light;
-      color: $color3-dark;
-      border: 3px solid $color3-dark;
+      color: $color4;
+      border: 3px solid $color4;
       border-radius: 50%;
       height: 35px;
       width: 35px;
