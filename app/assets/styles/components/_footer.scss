@@ -1,0 +1,47 @@
+footer {
+  background-color: $color1-light;
+
+  a {
+    text-decoration: none;
+    color: $color1-light;
+  }
+
+  ul {
+    list-style: none;
+    padding:0px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    padding-top:20px;
+  }
+
+  .rs {
+    font-size: 1.8rem;
+
+    li {
+      background-color: $color4-dark;
+      border-radius: 100%;
+      width:35px;
+      height:35px;
+      display: inline-block;
+      line-height: 36px;
+      text-align: center;
+      margin:0px 10px;
+    }
+
+    .icon-arrow {
+      transform: rotate(180deg);
+      line-height: 37px;
+    }
+  }
+  
+  .list-footer {
+    padding-bottom: 20px;
+
+    a {
+      color: $color4-dark;
+      font-size: 1.6rem;
+      line-height: 25px;
+    }
+  }
+}
