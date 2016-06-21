@@ -29,3 +29,125 @@
   }
 
 }
+
+.c-show {
+  margin-top: 20px;
+  background-color: $color1-light;
+  padding-top:16px;
+  padding-left:12px;
+  opacity: 0;
+  display: none;
+
+  &.isShow {
+    opacity: 1;
+    display: block;
+  }
+
+  label {
+    font-family: $openSans;
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: block;
+    color: $gray-thunder;
+    margin-top: 17px;
+  }
+
+  input {
+    width: 96%;
+    background-color: $color1-light;
+    border: 1px solid $color1;
+    padding: 5px;
+    border-radius: 0px;
+    background-image: none;
+    box-shadow: none;
+    height: 37px;
+    margin-top: 12px;
+    -webkit-appearance: none;
+    font-family: $openSans;
+    font-size: 1.2rem;
+    padding-left: 43px;
+    box-sizing: border-box;
+  }
+
+  input[type="submit"] {
+    padding: 0px;
+    margin-bottom: 35px;
+    margin-top: 20px;
+    background-color: $color4;
+    border: 1px solid $color4;
+    color: $color1-light;
+    font-family: $openSans;
+    text-transform: uppercase;
+    letter-spacing: 1.7px;
+    font-weight: bold;
+    height:45px;
+  }
+
+  .input {
+    position: relative;
+  }
+
+  .input-icon {
+    position: absolute;
+    left:5px;
+    top:18px;
+    font-size: 1.5rem;
+    color: $color1-dark;
+    padding: 5px;
+    padding-right: 10px;
+    border-right: 1px solid $color1-dark;
+  }
+
+  .c-twice {
+    width:96%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .item, label {
+      display: inline-block;
+    }
+
+    .item {
+      width: 43%;
+    }
+
+    input[type="date"] {
+      width: 100%;
+    }
+
+    label[for='time'] {
+      margin-top:0px;
+      vertical-align: middle;
+    }
+
+    input[type="time"] {
+      width: 100%;
+    }
+  }
+
+  #place {
+    width: 50%;
+  }
+
+  .btn-geoloc {
+    border: 1px solid $color4;
+    color: $color4;
+    padding: 12px 17px;
+    text-decoration: none;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    height:37px;
+    margin-top:12px;
+    width:49%;
+    text-align: center;
+  }
+  
+  .c-place {
+    width:96%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+}
