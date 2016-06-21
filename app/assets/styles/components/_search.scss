@@ -118,7 +118,7 @@
     }
 
     label[for='time'] {
-      margin-top:0px;
+      margin-top:12px;
       vertical-align: middle;
     }
 
@@ -128,19 +128,19 @@
   }
 
   #place {
-    width: 50%;
+    width: 52%;
   }
 
   .btn-geoloc {
     border: 1px solid $color4;
     color: $color4;
-    padding: 12px 17px;
+    padding: 12px 10px;
     text-decoration: none;
     text-transform: uppercase;
     box-sizing: border-box;
     height:37px;
     margin-top:12px;
-    width:49%;
+    width:45%;
     text-align: center;
   }
   
