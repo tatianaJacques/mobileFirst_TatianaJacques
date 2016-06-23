@@ -6,6 +6,18 @@ html {
   padding-top: 50px;
   margin: 25px auto;
   width: 93%;
+
+  &.overlay:after {
+    content: '';
+    width:100vw;
+    height:100vh;
+    background-color: rgba(22, 26, 29, 0.88);
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
 }
 
 .noShow {

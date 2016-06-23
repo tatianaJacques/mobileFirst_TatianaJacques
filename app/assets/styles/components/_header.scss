@@ -97,6 +97,10 @@ header {
         font-size: 1.6rem;
         box-sizing: border-box;
         line-height: 49px;
+
+        &.isActive {
+          color: $color4;
+        }
       }
     }
   }
@@ -144,6 +148,11 @@ header {
     color: $color1-dark;
     margin-right: 20px;
     margin-bottom: 2px;
+  }
+
+  .icon-param {
+    font-size: 3.2rem;
+    color: $color1-dark;
   }
 
   a {
