@@ -30,4 +30,16 @@ document.addEventListener('DOMContentLoaded', function() {
         containerGuide.classList.toggle('isShow');
         containerVisit.classList.remove('isShow');
     }, false);
+
+    //notifications
+
+    var not = document.querySelector('header .not');
+    var notIcon = document.querySelector('header .not .icon');
+    var cNotifications = document.querySelector('.c-sub-header');
+
+    not.addEventListener('click', function() {
+        cNotifications.classList.toggle('isShow');
+        notIcon.classList.toggle('isActive');
+    });
+
 })

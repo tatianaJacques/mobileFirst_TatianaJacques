@@ -1,12 +1,12 @@
 header {
-  height:50px;
+  height: 50px;
   display: flex;
   align-items: center;
   background-color: $color1-light;
   position: fixed;
-  top:0px;
-  left:0px;
-  width:100vw;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
   box-shadow: 0 1px 6px 0 $color1;
 
   .logo {
@@ -38,13 +38,13 @@ header {
     width: 50%;
     display: flex;
     align-items: center;
-    height:50px;
+    height: 50px;
     justify-content: flex-end;
   }
 
   .not {
     position: relative;
-    margin-left:10px;
+    margin-left: 10px;
 
     .icon {
       color: $color1-dark;
@@ -56,6 +56,10 @@ header {
       box-sizing: border-box;
       margin-left: 15px;
       padding-left: 2px;
+      
+      &.isActive {
+        color: $color4;
+      }
     }
 
     .number {
@@ -98,52 +102,60 @@ header {
   }
 
 }
-  .header-sub {
-    background-color: $gray-cloud;
-    position: fixed;
-    top: 50px;
-    width: 100%;
-    box-shadow: 0 1px 6px 0 $color1;
 
+.header-sub {
+  background-color: $gray-cloud;
+  position: fixed;
+  top: 50px;
+  width: 100%;
+  box-shadow: 0 1px 6px 0 $color1;
 
-    img {
-      width: 30px;
-      height: 38px;
-      object-fit: cover;
-    }
+  .c-sub-header {
+    display: none;
 
-    ul {
-      list-style: none;
+    &.isShow {
       display: block;
-      padding-left: 20px;
-    }
-    
-    li {
-      display: flex;
-      align-items: center;
-      margin: 12px 0px;
-      font-family: $openSans;
-      justify-content: space-between;
-    }
-
-    .icon-close {
-      font-size: 1.9rem;
-      font-family: $openSans;
-      color: $color1-dark;
-      margin-right: 20px;
-      margin-bottom: 2px;
-    }
-
-    a {
-      font-size: 1.2rem;
-      font-family: $openSans;
-      color: $gray-thunder;
-      text-decoration: none;
-      display: flex;
-      align-items: center;
-
-      span {
-        margin-left: 16px;
-      }
     }
   }
+
+  img {
+    width: 30px;
+    height: 38px;
+    object-fit: cover;
+  }
+
+  ul {
+    list-style: none;
+    display: block;
+    padding-left: 20px;
+  }
+
+  li {
+    display: flex;
+    align-items: center;
+    margin: 12px 0px;
+    font-family: $openSans;
+    justify-content: space-between;
+  }
+
+  .icon-close {
+    font-size: 1.9rem;
+    font-family: $openSans;
+    color: $color1-dark;
+    margin-right: 20px;
+    margin-bottom: 2px;
+  }
+
+  a {
+    font-size: 1.2rem;
+    font-family: $openSans;
+    color: $gray-thunder;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+
+    span {
+      margin-left: 16px;
+    }
+  }
+}
