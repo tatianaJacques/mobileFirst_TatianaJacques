@@ -97,7 +97,7 @@
     transition: cubic-bezier(0.18, 0.31, 0.89, 0.76) .3s;
   }
 
-  .more {
+  .more, .reply {
     cursor: pointer;
 
     &:hover {
@@ -112,7 +112,7 @@
         color: $color3;
       }
 
-      .m-calendar & {
+      .m-calendar &, .m-lastMessage & {
         border: 0px solid $color4;
         color: $color1-light;
         background-color: $color4-dark !important;

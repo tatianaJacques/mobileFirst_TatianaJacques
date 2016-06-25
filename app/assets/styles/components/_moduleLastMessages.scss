@@ -1,0 +1,74 @@
+.m-lastMessage {
+
+  .c-lastMessages{
+    background-color: $color1-light;
+    padding:10px;
+  }
+
+  img {
+    width: 20%;
+    height:82px;
+    object-fit: cover;
+    display: inline-block;
+  }
+
+  .c-texts{
+    display: inline-block;
+    width: 75.3%;
+    box-sizing: border-box;
+    vertical-align: top;
+    font-size: 1.3rem;
+    font-family: $openSans;
+    background-color: #ececec;
+    height: 82px;
+    margin: 0px;
+    margin-left: 3.3%;
+    padding: 6px;
+    color: #191919;
+    border-radius: 2px;
+    position: relative;
+
+    p{
+      margin: 0px;
+    }
+  }
+
+  .from, .date {
+    color: #191919;
+    font-family: $openSans;
+    font-weight: bold;
+    font-size: 1.3rem;
+  }
+
+  .reply {
+    background-color: $color4;
+    color: $color1-light;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: $openSans;
+    padding: 2px 7px;
+    position: absolute;
+    right: 5px;
+    bottom: -10px;
+  }
+
+  .item {
+    padding-bottom:2px;
+    margin-bottom:23px;
+  }
+
+  .more {
+    background-color: $color4;
+    color: $color1-light;
+    margin-bottom:25px;
+    display: block;
+    text-align: center;
+    padding:10px 0;
+    margin-top:0px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: $openSans;
+  }
+}
