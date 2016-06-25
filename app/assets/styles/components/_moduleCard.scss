@@ -21,6 +21,7 @@
   &.visit-card {
     border: 1px solid $color1-light;
     background-color: $color1-light;
+
     .t-number {
       color: $color2-dark;
     }
@@ -28,11 +29,13 @@
 
   .visit {
     background-color: $color2;
+    border: 1px solid $color2;
     color: $color1-light;
   }
 
   .guide {
     background-color: $color3;
+    border: 1px solid $color3 ;
     color: $color1-light;
   }
 
@@ -55,8 +58,15 @@
   }
 
   //container
+  .c-top {
+    overflow: hidden;
+    width:100.3%;
+  }
+
   .c-time {
     padding: 10px 5px;
+    width: 101%;
+    box-sizing: border-box;
   }
 
   .c-profil {

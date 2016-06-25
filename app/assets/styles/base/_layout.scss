@@ -2,6 +2,10 @@ html {
   font-size: 62.5%
 }
 
+aside {
+  display: none;
+}
+
 .container {
   padding-top: 50px;
   margin: 25px auto;
@@ -49,6 +53,36 @@ h3 {
 .btn-01 {
   background-color: $color1;
   box-sizing :border-box;
+
+  &.active {
+
+    &.visit {
+      border: 1px solid $color2;
+      color: $color2;
+    }
+
+    &.guide {
+      border: 1px solid $color3;
+      color: $color3;
+    }
+
+    background-color: white !important;
+  }
+
+  &.lock {
+
+    &.visit {
+      border: 1px solid $color1;
+      color: $color1;
+    }
+
+    &.guide {
+      border: 1px solid $color1;
+      color: $color1;
+    }
+
+    background-color: white !important;
+  }
 }
 
 .btn-02 {

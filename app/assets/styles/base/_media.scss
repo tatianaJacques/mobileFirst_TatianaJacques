@@ -1,0 +1,247 @@
+@media screen and (min-width: 720px) {
+    .header-sub {
+      width:29% !important;
+      right: 0px;
+    }
+
+  .container {
+    width:90%;
+
+
+    .m-push {
+      .c-push {
+        height:240px;
+      }
+    }
+
+    .m-card {
+      margin-bottom: 20px;
+      width: 48%;
+      display: inline-block;
+      min-height: 270px;
+      vertical-align: top;
+      transition: cubic-bezier(0.18, 0.31, 0.89, 0.76) .4s;
+
+      .t-descript {
+        min-height: 60px;
+      }
+
+      &:hover {
+        box-shadow: 5px 10px 34px #C7C7C7;
+      }
+    }
+
+    .c-cards {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .c-push {
+      overflow: hidden;
+
+      img {
+        transition: cubic-bezier(0.18, 0.31, 0.89, 0.76) 3s;
+      }
+    }
+
+    .c-push:hover {
+      img {
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  header .not .icon,
+  header .profil .informations .icon,
+  .header-sub li{
+    transition: cubic-bezier(0.18, 0.31, 0.89, 0.76) .3s;
+    cursor: pointer;
+
+      &:hover {
+        color: $color4-dark;
+
+        .icon, a {
+          color: $color4-dark;
+        }
+      }
+  }
+
+  .btn-01, .btn-02 {
+    transition: cubic-bezier(0.18, 0.31, 0.89, 0.76) .3s;
+    cursor: pointer;
+
+    &:hover {
+
+      &.visit {
+        border: 1px solid $color2;
+        color: $color2;
+      }
+
+      &.guide {
+        border: 1px solid $color3;
+        color: $color3;
+      }
+
+      border: 1px solid $color4;
+      color: $color4;
+      background-color: white !important;
+      
+      a {
+        color: $color4;
+      }
+    }
+  }
+
+  a {
+    transition: cubic-bezier(0.18, 0.31, 0.89, 0.76) .3s;
+  }
+
+  .more {
+    cursor: pointer;
+
+    &:hover {
+
+      &.visit {
+        border: 1px solid $color2;
+        color: $color2;
+      }
+
+      &.guide {
+        border: 1px solid $color3;
+        color: $color3;
+      }
+
+      .m-calendar & {
+        border: 0px solid $color4;
+        color: $color1-light;
+        background-color: $color4-dark !important;
+      }
+
+      background-color: $color1-light !important;
+    }
+  }
+
+  .c-show input[type="submit"], .c-newsletter input[type="submit"] {
+    transition: cubic-bezier(0.18, 0.31, 0.89, 0.76) .3s;
+
+    &:hover {
+        border: 0px solid $color4;
+        color: $color1-light;
+        background-color: $color4-dark;
+    }
+  }
+
+  footer .rs li {
+    transition: cubic-bezier(0.18, 0.31, 0.89, 0.76) .3s;
+
+    &:hover {
+      background-color: $color4-darker;
+    }
+  }
+
+  .list-footer a{
+    transition: cubic-bezier(0.18, 0.31, 0.89, 0.76) .3s;
+
+    &:hover {
+      color: $color4-darker;
+    }
+  }
+
+  footer .rs {
+    display: inline-block;
+    width:100%;
+  }
+
+  .list-footer {
+    display: inline-block;
+    width:100%;
+
+    li {
+      display: inline-block;
+      margin: 0px 10px;
+    }
+  }
+}
+
+
+@media screen and (min-width: 1024px) {
+  .container {
+    .m-push {
+      .c-push {
+        height: 340px;
+      }
+    }
+
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    display: inline-block;
+    width: 65%;
+    margin-left:5%;
+
+    .m-push {
+      .c-push {
+        height: 340px;
+      }
+    }
+
+    .m-calendar {
+      display: none;
+    }
+  }
+
+  aside {
+    margin-top: 75px;
+    padding-left:40px;
+    padding-right:40px;
+    box-sizing: border-box;
+    display: inline-block !important;
+    width: 29%;
+    vertical-align: top;
+  }
+
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 70%;
+
+    .m-push {
+      .c-push {
+        height: 340px;
+      }
+    }
+
+    .m-card {
+      margin-bottom: 20px;
+      width: 30%;
+      display: inline-block;
+      min-height: 270px;
+      vertical-align: top;
+
+      .t-descript {
+        min-height: 60px;
+      }
+    }
+  }
+
+  footer .rs {
+    display: inline-block;
+    width:20%;
+  }
+
+  .list-footer {
+    display: inline-block;
+    width:65%;
+
+    li {
+      display: inline-block;
+      margin: 0px 10px;
+    }
+  }
+
+}
