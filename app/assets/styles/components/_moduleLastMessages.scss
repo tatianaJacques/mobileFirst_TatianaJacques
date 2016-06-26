@@ -1,18 +1,18 @@
 .m-lastMessage {
 
-  .c-lastMessages{
+  .c-lastMessages {
     background-color: $color1-light;
-    padding:10px;
+    padding: 10px;
   }
 
   img {
     width: 20%;
-    height:82px;
+    height: 82px;
     object-fit: cover;
     display: inline-block;
   }
 
-  .c-texts{
+  .c-texts {
     display: inline-block;
     width: 75.3%;
     box-sizing: border-box;
@@ -28,7 +28,7 @@
     border-radius: 2px;
     position: relative;
 
-    p{
+    p {
       margin: 0px;
     }
   }
@@ -54,18 +54,18 @@
   }
 
   .item {
-    padding-bottom:2px;
-    margin-bottom:23px;
+    padding-bottom: 2px;
+    margin-bottom: 23px;
   }
 
   .more {
     background-color: $color4;
     color: $color1-light;
-    margin-bottom:25px;
+    margin-bottom: 25px;
     display: block;
     text-align: center;
-    padding:10px 0;
-    margin-top:0px;
+    padding: 10px 0;
+    margin-top: 0px;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: bold;

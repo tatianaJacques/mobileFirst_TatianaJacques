@@ -1,16 +1,15 @@
 @media screen and (min-width: 720px) {
-    .header-sub {
-      width:29% !important;
-      right: 0px;
-    }
+  .header-sub {
+    width: 29% !important;
+    right: 0px;
+  }
 
   .container {
-    width:90%;
-
+    width: 90%;
 
     .m-push {
       .c-push {
-        height:240px;
+        height: 240px;
       }
     }
 
@@ -54,17 +53,17 @@
 
   header .not .icon,
   header .profil .informations .icon,
-  .header-sub li{
+  .header-sub li {
     transition: cubic-bezier(0.18, 0.31, 0.89, 0.76) .3s;
     cursor: pointer;
 
-      &:hover {
-        color: $color4-dark;
+    &:hover {
+      color: $color4-dark;
 
-        .icon, a {
-          color: $color4-dark;
-        }
+      .icon, a {
+        color: $color4-dark;
       }
+    }
   }
 
   .btn-01, .btn-02 {
@@ -86,7 +85,7 @@
       border: 1px solid $color4;
       color: $color4;
       background-color: white !important;
-      
+
       a {
         color: $color4;
       }
@@ -126,9 +125,9 @@
     transition: cubic-bezier(0.18, 0.31, 0.89, 0.76) .3s;
 
     &:hover {
-        border: 0px solid $color4;
-        color: $color1-light;
-        background-color: $color4-dark;
+      border: 0px solid $color4;
+      color: $color1-light;
+      background-color: $color4-dark;
     }
   }
 
@@ -140,7 +139,7 @@
     }
   }
 
-  .list-footer a{
+  .list-footer a {
     transition: cubic-bezier(0.18, 0.31, 0.89, 0.76) .3s;
 
     &:hover {
@@ -150,12 +149,12 @@
 
   footer .rs {
     display: inline-block;
-    width:100%;
+    width: 100%;
   }
 
   .list-footer {
     display: inline-block;
-    width:100%;
+    width: 100%;
 
     li {
       display: inline-block;
@@ -163,7 +162,6 @@
     }
   }
 }
-
 
 @media screen and (min-width: 1024px) {
   .container {
@@ -181,7 +179,7 @@
   .container {
     display: inline-block;
     width: 65%;
-    margin-left:5%;
+    margin-left: 5%;
 
     .m-push {
       .c-push {
@@ -196,14 +194,14 @@
 
   aside {
     margin-top: 75px;
-    padding-left:40px;
-    padding-right:40px;
+    padding-left: 40px;
+    padding-right: 40px;
     box-sizing: border-box;
     display: inline-block !important;
     width: 29%;
     vertical-align: top;
+    position: fixed;
   }
-
 }
 
 @media screen and (min-width: 1440px) {
@@ -231,12 +229,12 @@
 
   footer .rs {
     display: inline-block;
-    width:20%;
+    width: 20%;
   }
 
   .list-footer {
     display: inline-block;
-    width:65%;
+    width: 65%;
 
     li {
       display: inline-block;
