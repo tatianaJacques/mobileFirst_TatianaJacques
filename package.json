@@ -1,7 +1,7 @@
 {
   "name": "gulpStarter2",
   "version": "1.0.0",
-  "author": "Julien Siwek",
+  "author": "Tatiana Jacques",
   "private": true,
   "devDependencies": {
     "browser-sync": "^2.10.0",

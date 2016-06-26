@@ -2,6 +2,10 @@ MEETRAVEL
 =
 
 
+Require
+-
+
+node, npm, ruby and python
 
 Project installation
 -
